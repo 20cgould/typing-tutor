@@ -109,3 +109,8 @@
     box-shadow: 0 4px 0 2px #0006;
     transition: all .05s ease;
 }
+.keyboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

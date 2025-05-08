@@ -15,6 +15,7 @@ export function Keyboard_app({keydown, keyup, pointer="W"})
 
     console.log(keydown);
     return(
+      <div className="keyboard-container">
         <div className = "keyboard">
             <Row row={first_row} pointer={pointer} keydown ={keydown} keyup={keyup}/>
             <Row row={second_row} pointer={pointer} keydown ={keydown} keyup={keyup}/>
@@ -22,6 +23,7 @@ export function Keyboard_app({keydown, keyup, pointer="W"})
             <Row row={fourth_row} pointer={pointer}keydown ={keydown} keyup={keyup}/> 
             <Row row={fifth_row} pointer ={pointer}keydown ={keydown}keyup={keyup}/>
         </div>
+      </div>
     );
 
 

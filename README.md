@@ -1,7 +1,6 @@
-Requirement:
-1. The page must display a block of text
-2. When the user types, The letters that the user has typed must turn black
-3. The letter that is next to be pressed should be underlined.
-4. When the user is finished with the passage, the next passage should be displayed on the screen.
-5. On the bottom of the screen is displayed a keyboard.
-6. The keyboard always shows what buttons are currently being pressed by showing them as being pressed on the keyboard in some way.
+## Typing Tutor
+This is a simple typing tutor that shows exactly which keys to type.
+
+## How to run
+First, you must have node.js installed. you must first run npm install and then npm run dev. The project will now be available on localhost:5173
+
